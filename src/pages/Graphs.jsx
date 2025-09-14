@@ -5,28 +5,40 @@ import { TrendingUp, Droplets, DollarSign, Calendar } from 'lucide-react';
 import { FaIndianRupeeSign } from "react-icons/fa6";
 // Mock data for demonstration
 const yieldData = [
-  { month: 'Jan', yield: 2400, rainfall: 120 },
-  { month: 'Feb', yield: 1398, rainfall: 98 },
-  { month: 'Mar', yield: 9800, rainfall: 86 },
-  { month: 'Apr', yield: 3908, rainfall: 99 },
-  { month: 'May', yield: 4800, rainfall: 85 },
-  { month: 'Jun', yield: 3800, rainfall: 65 },
+  { month: 'Jan', yield: 4000, rainfall: 60 },
+  { month: 'Feb', yield: 4200, rainfall: 60 },
+  { month: 'Mar', yield: 8000, rainfall: 69 },
+  { month: 'Apr', yield: 6008, rainfall: 63 },
+  { month: 'May', yield: 5800, rainfall: 64 },
+  { month: 'Jun', yield: 5800, rainfall: 65 },
+  { month: 'July', yield: 5908, rainfall: 80 },
+  { month: 'Aug', yield: 8800, rainfall: 101 },
+  { month: 'Sept', yield: 9800, rainfall: 123 },
+  { month: 'Oct', yield: 2908, rainfall: 99 },
+  { month: 'Nov', yield: 3800, rainfall: 85 },
+  { month: 'Dec', yield: 4800, rainfall: 65 },
 ];
 
 const cropDistribution = [
-  { key: 'wheat', value: 45, color: '#10B981' },
-  { key: 'cotton', value: 25, color: '#F59E0B' },
-  { key: 'rice', value: 20, color: '#3B82F6' },
+  { key: 'wheat', value: 90, color: '#10B981' },
+  // { key: 'cotton', value: 25, color: '#F59E0B' },
+  // { key: 'rice', value: 20, color: '#3B82F6' },
   { key: 'others', value: 10, color: '#6B7280' },
 ];
 
 const incomeData = [
-  { month: 'Jan', income: 15000, expenses: 8000 },
-  { month: 'Feb', income: 12000, expenses: 7500 },
-  { month: 'Mar', income: 18000, expenses: 9000 },
-  { month: 'Apr', income: 22000, expenses: 10000 },
-  { month: 'May', income: 25000, expenses: 11000 },
-  { month: 'Jun', income: 28000, expenses: 12000 },
+  { month: 'Jan',  income: 15000, expenses: 8000 },
+  { month: 'Feb',  income: 12000, expenses: 7500 },
+  { month: 'Mar',  income: 18000, expenses: 9000 },
+  { month: 'Apr',  income: 22000, expenses: 10000 },
+  { month: 'May',  income: 25000, expenses: 11000 },
+  { month: 'Jun',  income: 28000, expenses: 12000 },
+  { month: 'Jul',  income: 18000, expenses: 9000 },
+  { month: 'Aug',  income: 22000, expenses: 10000 },
+  { month: 'Sep',  income: 25000, expenses: 11000 },
+  { month: 'Oct',  income: 28000, expenses: 12000 },
+  { month: 'Nov',  income: 18000, expenses: 9000 },
+  { month: 'Dec',  income: 22000, expenses: 10000 },
 ];
 
 export const Graphs = () => {
