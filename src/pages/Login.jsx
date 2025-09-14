@@ -22,14 +22,14 @@ const mockFarmers = [
   },
   {
     id: '2',
-    phone: '9123456789',
-    name: 'Suresh Kumar',
+    phone: '8368763700',
+    name: 'Aditya Gaur',
     location: 'Jaipur, Rajasthan',
-    soil_type: 'Sandy Loam',
-    crop_type: 'Cotton',
-    irrigation_method: 'Flood Irrigation',
+    soil_type: 'Loamy',
+    crop_type: 'Wheat',
+    irrigation_method: 'Drip Irrigation',
     crop_stage: 'Vegetative',
-    farm_size: 3.8,
+    farm_size: 3,
     preferred_language: 'hi',
     created_at: '2024-02-20T14:15:00Z'
   }
@@ -269,7 +269,7 @@ export const Login = () => {
             >
               {loading ? 'Sending...' : 'Send OTP'}
             </button>
-            <div className="fd-demo">Demo phones: 9876543210, 9123456789</div>
+            {/* <div className="fd-demo">Demo phones: 9876543210, 9123456789</div> */}
           </form>
         ) : (
           <form style={{ width: '100%' }} onSubmit={e => { e.preventDefault(); handleVerifyOTP(); }}>
