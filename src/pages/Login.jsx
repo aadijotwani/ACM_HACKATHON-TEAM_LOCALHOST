@@ -242,7 +242,7 @@ export const Login = () => {
         <div className="fd-logo">
           <Sprout style={{ width: 32, height: 32, color: '#fff' }} />
         </div>
-        <div className="fd-title">FarmDash</div>
+        <div className="fd-title">Project Trupti</div>
         <div className="fd-subtitle">PMKVY Farmer Dashboard</div>
         {step === 'phone' ? (
           <form style={{ width: '100%' }} onSubmit={e => { e.preventDefault(); handleSendOTP(); }}>

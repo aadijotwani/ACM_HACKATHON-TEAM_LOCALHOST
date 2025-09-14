@@ -178,7 +178,7 @@ export const Home = () => {
             {t('nextCall')}
           </div>
           <div className="fd-dash-next-date">
-            {t('nextScheduledConsultation') || 'Next scheduled consultation:'} <b>March 15, 2024 at 2:00 PM</b>
+            {t('nextScheduledConsultation') || 'Next scheduled consultation:'} <b>September 13, 2025 at 5:00 AM</b>
           </div>
           <span className="fd-dash-next-badge">{t('scheduled') || 'Scheduled'}</span>
           <span className="fd-dash-next-dot"></span>
